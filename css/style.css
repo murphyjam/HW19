@@ -1,0 +1,120 @@
+header{
+    background-color: #EDE5DA;
+}
+
+.logo {
+display: inline-block;
+vertical-align: top;
+width: 15%;
+text-align: center;
+margin: 3px;
+}
+
+.goblet{
+    border-style: solid;
+  border-width: 1px;
+  border-color: #9CD6FC;
+    height: 150px;
+    width: auto;
+}
+
+.mm{
+    height: 400px;
+    width: auto;
+    padding: 5px;
+}
+
+.headerlinks {
+display: inline-block;
+width: 82%;
+vertical-align: top;
+}
+
+li {
+    display: inline-block;
+    width: 20%;
+    padding: 5%;
+}
+
+nav {
+    width: 70%;
+    padding: 1%;
+}
+
+ul {
+    width: 70%;
+    margin-left: auto;
+}
+
+.heroimg {
+   text-align: center;
+    height: 600px;
+    padding: 50px;
+}
+
+p{
+    width:500px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+footer{
+    background-color: #F86580; 
+}
+
+.footerlinks{
+    text-align: center;
+    
+}
+
+button{
+    padding:5px;
+    margin-top: 50px;
+}
+
+.flexContainer{
+display:flex;
+text-align: center;
+}
+
+.flexkid1{
+    width: 33%;
+    padding:3px;
+}
+
+.flexkid2{
+    width: 33%;
+    padding:3px;
+}
+
+.flexkid3{
+    width: 33%;
+    padding:3px;
+}
+
+.workimg{
+    height: 300px;
+    width: auto;
+    padding: 5px;
+}
+
+.focus{
+    text-align: center;
+}
+
+.workgrid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.gridimg{
+    height: 300px;
+    width: auto;
+    padding: 5px;  
+}
+
+.mywork{
+    text-align: center;
+}
