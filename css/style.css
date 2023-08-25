@@ -74,8 +74,13 @@ button{
     margin-top: 50px;
 }
 
-.flexContainer{
-display:flex;
+#flexContainer, #focusb {
+    display:flex;
+    text-align: center;
+    }
+
+#flexContainer{
+display:none;
 text-align: center;
 }
 
@@ -100,12 +105,19 @@ text-align: center;
     padding: 5px;
 }
 
-.focus{
-    text-align: center;
+#focusb {
+    width: 200px;
+    margin:auto;
+    
 }
 
+
+.workgrid, #workb {
+    display: inline-flex;
+    grid-template-columns: auto auto;
+}
 .workgrid{
-    display: grid;
+    display: none;
     grid-template-columns: auto auto;
 }
 
